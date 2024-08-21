@@ -1,0 +1,17 @@
+{
+  "name": "workshop_make-your-own-codewars",
+  "version": "1.0.0",
+  "description": "In this workshop, you'll create your own programming challenge for others to solve, similar to the ones you might have tackled on Codewars. You'll write unit tests to validate solutions. Then you can share your challenge with other bootcampers for them to solve. If a submitted solution passes all your tests, it will be considered a correct solution - just like on Codewars. This is a great chance to get creative and come up with a programming challenge to stump your peers!",
+  "main": "index.js",
+  "type": "module",
+
+  "scripts": {
+    "test": "vitest",
+    "dev": "node main.js"
+  },
+  "author": "School of Code",
+  "license": "ISC",
+  "devDependencies": {
+    "vitest": "^2.0.5"
+  }
+}
