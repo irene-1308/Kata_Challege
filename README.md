@@ -3,9 +3,6 @@
 
 This project is a simple yet fun exercise developed during my time in a coding bootcamp. The goal was to create a set of tests for a function - once the tests were created, I removed the original implementation, and a fellow bootcampers had to recreate it based solely on the tests. The project is a great demonstration of Test-Driven Development (TDD) principles.
 
-
-
-
 ## Let's play!
 
 You checked your fridge and noticed some items are missing 😪. You need to go shopping, but it looks like it might rain soon, so you want to buy everything from one shop (or maybe you're just feeling a bit lazy, who am I to judge?).
@@ -33,7 +30,7 @@ NB: If you get stuck there is a solution file in the repo - please feel free to 
 
 - Node.js and npm must be installed on your machine.
 
-- Vitest: This is the testing framework we used. If you don't have it installed, you can install it globally or as a dev dependency.
+- Vitest: This is the testing framework I used. If you don't have it installed, you can install it globally or as a dev dependency.
 
 
 ## Installation
