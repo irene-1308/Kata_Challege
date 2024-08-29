@@ -1,42 +1,52 @@
-# Welcome to Speccy_Squad's Kata Challenges 😎
-This is Task 2 in our 3 part challenge.
-nb: These can be completed individually
+Overview
+This project is a simple yet fun exercise developed during my time in a coding bootcamp. The goal was to create a set of tests for a function - once the tests were created, I removed the original implementation, and a fellow bootcampers had to recreate it based solely on the tests. The project is a great demonstration of Test-Driven Development (TDD) principles.
 
-You checked your fridge and some items are missing 😪 You will need to go to do some shopping but it looks like it's going to rain soon, so you want to buy everything from one shop (or maybe you're just a bit lazy, who are we to judge?). 
+Let's play!
+You checked your fridge and noticed some items are missing 😪. You need to go shopping, but it looks like it might rain soon, so you want to buy everything from one shop (or maybe you're just feeling a bit lazy, who am I to judge?).
 
-The items you need: 
-- milk 🥛
-- tomatoes 🍅
-- broccoli 🥦
+The items you need:
 
-You already have a list of all shops in your area and what they have in stock.
-- create a function that will check through all stores' inventory:
-- if there is a shop that has all things you're after, returns the name of this shop;
-- if there is no match, you should see a message like "Whoomp - whomp, looks like you might have to make several trips";
-- if there are several stores with matching stock, show the name of all shops
+Milk 🥛
+Tomatoes 🍅
+Broccoli 🥦
+You already have a list of all the shops in your area and what they have in stock.
 
+The task:
 
-## How to Install and Run
+Create a function that checks through all the stores' inventories and:
 
-Install dependencies
-```
-  npm install
-  npm install vitest --save-dev
-```
-Start the server
-```
-  npm run dev
-```
-Run Test
-```
-npm run test
-```
+If there is a store that has all the items you're after, it should return the name of that shop.
 
-## 💡 OBJECTIVES FOR THE WORKSHOP
+If no store has all the items, it should return a message saying: "Whoomp - whomp, looks like you might have to make several trips".
 
-Here's a glimpse of what you'll be achieving by the end of this workshop:
+If multiple stores have all the items, it should return the names of all matching stores.
 
-- Clearly describing a problem/task that you want others to solve
-- Writing unit tests to check whether their solution to your task is correct
-- Present your project plan, story, and anything else you feel supports your creation process and final outcome in a document
+Prerequisites
+Node.js and npm must be installed on your machine.
+
+Vitest: This is the testing framework we used. If you don't have it installed, you can install it globally or as a dev dependency.
+
+I
+
+Installation
+Installation Steps Clone the repository:
+
+Copy code
+
+git clone <repository_url>
+Navigate to the project directory:
+
+cd <project_directory>
+Install dependencies:
+
+npm install
+Running the Tests:
+
+To run the tests, use the following command:
+
+npx vitest
+This will run all the test cases defined in your project and show you the results.
+
+  npm install my-project
+  cd my-project
 
