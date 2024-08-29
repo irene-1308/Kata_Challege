@@ -26,13 +26,16 @@ Create a function that checks through all the stores' inventories and:
 - If no store has all the items, it should return a message saying: "Whoomp - whomp, looks like you might have to make several trips".
 
 - If multiple stores have all the items, it should return the names of all matching stores.
+
+NB: If you get stuck there is a solution file in the repo - please feel free to take a peek!
+
 ## Prerequisites
 
 - Node.js and npm must be installed on your machine.
 
 - Vitest: This is the testing framework we used. If you don't have it installed, you can install it globally or as a dev dependency.
 
-I
+
 ## Installation
 
 Installation Steps
