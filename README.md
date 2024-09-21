@@ -36,6 +36,7 @@ NB: If you get stuck there is a solution file in the repo - please feel free to 
 ## Installation
 
 Installation Steps
+
 Clone the repository:
 
 Copy code
